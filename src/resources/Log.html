@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Log Messages</title>
+		<link href="css/bootstrap-combined.min.css" rel="stylesheet"/>
+		<link href="css/ui.totop.css" rel="stylesheet" />
+		<style type="text/css">
+			body {
+				padding: 5px;
+				font-size: small;
+			}
+			.alert {
+				margin-bottom: 5px;
+				padding: 8px 15px 8px 10px;
+			}
+			#btnClear{
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h4>Log Messages</h4>
+
+			<div class="row">
+				<div class="btn-group" data-toggle="buttons-checkbox">
+					<button id="btnerror" type="button" class="btn active">Error</button>
+					<button id="btnwarn" type="button" class="btn active">Warn</button>
+					<button id="btninfo" type="button" class="btn active">Info</button>
+					<button id="btnsuccess" type="button" class="btn">Debug</button>
+				</div>
+				<a id="btnClear" class="btn btn-warning" href="#"><i class="icon-remove-sign icon-white"></i> Clear Logs</a>
+			</div>
+			<p></p>
+
+			<div class="row messages">
+			</div>
+			<script src="scripts/jquery-latest.min.js"></script>
+			<script src="scripts/bootstrap.min.js"></script>
+			<script src="scripts/jquery.easing.min.js"></script>
+			<script src="scripts/jquery.ui.totop.js"></script>
+			<script src="scripts/Log.js"></script>
+		</div>
+	</body>
+</html>
