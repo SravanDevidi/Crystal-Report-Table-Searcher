@@ -19,3 +19,10 @@ This tool uses Crystal Reports Java Reporting Component [JRC](http://www.busines
 		If report finds any of the table in the pattern the search stops and continue for the next report.
 * Run the Search
 * It will display the matched reports
+
+### Cool Stuff
+* This tool uses JavaFX WebView to display log messages.
+* Implemented a JDK Log Handler to display messages into the WebView
+* Created a Log.html which includes Twitter Bootstrap & JQuery
+* The Log.js has some public JavaScript functions which will be invoked by JavaCode when ever there is a log message
+* Parallel search of reprots using ExecutorService.
