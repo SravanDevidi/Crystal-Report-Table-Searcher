@@ -1,3 +1,4 @@
 language: java
-jdk: oraclejdk7
+jdk: 
+  - oraclejdk7
 install: ant -Dplatforms.Default_JavaFX_Platform.home=/usr/lib/jvm/java-7-oracle jar
